@@ -1,0 +1,75 @@
+/*Geral*/
+html, body{
+	height: 100%;
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: black;
+	color: white;
+}
+.ancora{
+	position: absolute;
+	top: -100px;
+}
+.section-title{
+	text-align: center;
+	font-size: 40px;
+	color: black;
+}
+/*Header*/
+.video-header{
+	width: 100%
+}
+.section-header{
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	
+}
+.navigation{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: black;
+	z-index: 100;
+}
+.navigation-list{
+	padding: 0;
+}
+.navigation-list-item{
+	display: inline-block;
+	padding: 25px;
+}
+.nav-link{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.nav-link:hover{
+	color: green;
+
+
+}
+/*bolos*/
+.bolos{
+	background-image: url("balcao.jpg");
+
+}
+/*tortas*/
+.tortas{
+	background-image: url("bolo.jpg");
+
+}
+/*footer*/
+.footer-main{
+	position: relative;
+	padding: 10px;
+}
+.footer-section{
+	display: inline-block;
+	width: 32%;
+	min-width: 230px;
+	vertical-align: top;
+}
